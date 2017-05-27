@@ -1,0 +1,66 @@
+
+/*分页器样式开始*/
+
+.yzz-paging-plugin-pager {
+	margin-top: 15px 0;
+	vertical-align: middle;
+	clear: both;
+}
+
+.yzz-paging-plugin-pager,
+.yzz-paging-plugin-pager select {
+	font-size: 14px;
+}
+
+.yzz-paging-plugin-pager .yzz-page-total-record {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	top: 2px;
+}
+
+.yzz-paging-plugin-pager .yzz-page-size {
+	float: left;
+	position: relative;
+	top: 0px;
+}
+
+.yzz-paging-plugin-pager .yzz-page-turn {
+	float: right;
+}
+
+.yzz-paging-plugin-table a {
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.yzz-paging-plugin-pager a {
+	color: blue;
+}
+
+.yzz-paging-plugin-pager .yzz-page-turn a {
+	float: left;
+	margin-right: 10px;
+	text-decoration: none;
+	position: relative;
+	top: 2px;
+}
+
+.yzz-paging-plugin-pager .yzz-page-turn a:hover,
+.yzz-paging-plugin-table a:hover {
+	color: #070756;
+}
+
+.yzz-paging-plugin-pager .yzz-page-turn div {
+	float: left;
+	margin-right: 10px;
+}
+
+.yzz-paging-plugin-pager .yzz-page-turn div:last-child {
+	position: relative;
+	top: 2px;
+}
+
+
+/*分页器样式结束*/
+

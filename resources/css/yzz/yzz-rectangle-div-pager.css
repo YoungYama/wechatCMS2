@@ -1,0 +1,112 @@
+/*矩形列表样式开始*/
+
+.yzz-rectangle-articles-div a {
+	text-decoration: none;
+}
+
+.yzz-rectangle-articles-div {
+	width: 100%;
+	padding: 10px 0px 0px 10px;
+	margin: auto;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div {
+	width: 200px;
+	height: 250px;
+	margin-right: 18px;
+	margin-bottom: 20px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 200px 250px;
+	background-color: #D2D2D2;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div {
+	width: 200px;
+	height: 250px;
+	border: 1px solid gray;
+	cursor: pointer;
+	display: none;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-background-div {
+	width: 200px;
+	height: 250px;
+	background-color: black;
+	filter: alpha(opacity=50);
+	/*IE滤镜，透明度50%*/
+	-moz-opacity: 0.5;
+	/*Firefox私有，透明度50%*/
+	opacity: 0.5;
+	/*其他，透明度50%*/
+	z-index: 1;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div {
+	width: 200px;
+	height: 250px;
+	position: relative;
+	top: -250px;
+	z-index: 3;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div a {
+	color: white;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div a:hover {
+	color: gainsboro;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div .yzz-pre-view {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	font-size: 14px;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div .yzz-single-article-bottom-div {
+	width: 200px;
+	height: 50px;
+	position: relative;
+	top: 179px;
+	z-index: 2;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div .yzz-single-article-bottom-background-div {
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	filter: alpha(opacity=50);
+	/*IE滤镜，透明度50%*/
+	-moz-opacity: 0.5;
+	/*Firefox私有，透明度50%*/
+	opacity: 0.5;
+	/*其他，透明度50%*/
+	position: relative;
+	top: 127px;
+	z-index: 1;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div .yzz-single-article-title-div {
+	float: left;
+	margin-top: 11px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div .yzz-single-article-operate-div {
+	float: right;
+	margin-top: 12px;
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.yzz-rectangle-articles-div .yzz-single-article-div .yzz-single-article-main-div .yzz-single-article-do-div .yzz-single-article-operate-div a {
+	margin-left: 5px;
+}
+
+
+/*矩形列表样式结束*/
+

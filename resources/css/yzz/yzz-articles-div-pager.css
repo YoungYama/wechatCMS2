@@ -1,0 +1,212 @@
+
+/*类微信图文列表开始*/
+
+.yzz-rectangles-articles-div {
+	width: 100%;
+	padding: 10px 0px 0px 10px;
+	margin: auto;
+	font-size: 14px;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div {
+	width: 200px;
+	min-height: 158px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	float: left;
+	border: 1px solid gainsboro;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-checkbox-div {
+	padding-top: 3px;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-checkbox-div span {
+	color: darkgray;
+	margin-left: 10px;
+	font-size: 14;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-do-div {
+	width: 200px;
+	height: 108px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-do-div .yzz-single-articles-div {
+	width: 180px;
+	height: 108px;
+	margin-left: 10px;
+	float: left;
+	background-color: #D2D2D2;
+	background-repeat: no-repeat;
+	background-size: 180px 108px;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-do-div .yzz-single-articles-div .yzz-pre-view {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: -145px;
+	left: 60px;
+	z-index: 3;
+	/*display: none;*/
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-do-div .yzz-single-articles-div .yzz-single-articles-title-background-div {
+	width: 180px;
+	height: 40px;
+	background-color: black;
+	position: relative;
+	top: 28px;
+	filter: alpha(opacity=60);
+	/*IE滤镜，透明度50%*/
+	-moz-opacity: 0.6;
+	/*Firefox私有，透明度50%*/
+	opacity: 0.6;
+	/*其他，透明度50%*/
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-do-div .yzz-single-articles-div .yzz-single-articles-title-div {
+	width: 180px;
+	height: 40px;
+	z-index: 2;
+	position: relative;
+	top: 68px;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-do-div .yzz-single-articles-div .yzz-single-articles-title-div a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 5px;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-do-div .yzz-single-articles-div a:hover {
+	color: gainsboro;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-do-div .yzz-single-articles-background-div {
+	width: 200px;
+	height: 108px;
+	background-color: black;
+	position: relative;
+	top: -80px;
+	left: -10px;
+	margin: auto;
+	filter: alpha(opacity=60);
+	/*IE滤镜，透明度50%*/
+	-moz-opacity: 0.6;
+	/*Firefox私有，透明度50%*/
+	opacity: 0.6;
+	/*其他，透明度50%*/
+	z-index: 2;
+	cursor: pointer;
+	/*display: none;*/
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-child-list-div {
+	width: 200px;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-child-list-div .yzz-single-articles-child-div {
+	width: 200px;
+	height: 60px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-child-list-div .yzz-single-articles-child-do-backgroud-div {
+	width: 200px;
+	height: 60px;
+	margin: auto;
+	background-color: black;
+	filter: alpha(opacity=70);
+	/*IE滤镜，透明度50%*/
+	-moz-opacity: 0.7;
+	/*Firefox私有，透明度50%*/
+	opacity: 0.7;
+	/*其他，透明度50%*/
+	z-index: 2;
+	cursor: pointer;
+	position: relative;
+	top: -60px;
+	z-index: 2;
+	/*display: none;*/
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-child-list-div .yzz-pre-view {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: -100px;
+	left: 70px;
+	z-index: 3;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-child-list-div .yzz-pre-view:hover{
+	color: gainsboro;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-child-list-div .yzz-single-articles-child-do-div {
+	width: 180px;
+	height: 60px;
+	margin: auto;
+	z-index: 1;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-child-list-div .yzz-single-articles-child-do-div .yzz-single-articles-title-div a {
+	color: black;
+	float: left;
+	margin: 15px 0px;
+	text-decoration: none;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-child-list-div .yzz-single-articles-child-do-div .yzz-single-articles-title-img-div {
+	background-color: lightgray;
+	width: 50px;
+	height: 50px;
+	margin: 5px 0px 0px 0px;
+	float: right;
+	background-color: #D2D2D2;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-bottom-div {
+	width: 200px;
+	height: 40px;
+	float: left;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-bottom-div a {
+	text-decoration: none;
+	padding: 12px 38px;
+	margin-left: -8px;
+	background-color: #F4F4F4;
+	position: relative;
+	top: 12px;
+	left: 8px;
+	color: gray;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-bottom-div a:hover {
+	color: black;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-main-div .yzz-single-articles-bottom-div a:last-child {
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+
+.yzz-rectangles-articles-div .yzz-single-articles-all-backgroud-div {
+	display: none;
+}
+
+.yzz-rectangles-articles-div .yzz-pre-view {
+	display: none;
+}
+
+
+/*类微信图文列表结束*/

@@ -1,0 +1,77 @@
+/**
+ * 部分样式参照www.layui.com
+ * @author 杨志钊
+ * @date 2017-03-23
+ */
+
+
+@import url("layui.css");
+@import url("modules/laydate/laydate.css");
+@import url("modules/layer/default/layer.css");
+@import url("modules/code.css");
+
+
+/*表格、矩形、正方形、类微信图文列表插件样式*/
+
+@import url("yzz-pager.css");
+@import url("yzz-rectangle-div-pager.css");
+@import url("yzz-square-div-pager.css");
+@import url("yzz-articles-div-pager.css");
+@import url("yzz-table-pager.css");
+
+/*按钮样式开始*/
+
+.yzz-button {
+	height: 32px;
+	padding: 0 12px;
+	background-color: #009688;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	opacity: 0.9;
+	margin-right: 10px;
+}
+
+.yzz-button:hover {
+	background-color: #17AFA1;
+}
+
+
+/*按钮样式结束*/
+
+
+/*复选框样式开始*/
+
+.yzz-checkbox-input {
+	display: none;
+}
+
+#yzz-checkbox-input+label {
+	cursor: pointer;
+	background-color: #eee;
+	border: 1px solid gray;
+	border-radius: 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+}
+
+#yzz-checkbox-input:checked+label {
+	background-color: #eee;
+}
+
+#yzz-checkbox-input:checked+label:after {
+	content: "\2714";
+	color: green;
+	font-weight: bold;
+}
+
+
+/*复选框样式结束*/

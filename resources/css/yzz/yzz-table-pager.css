@@ -1,0 +1,32 @@
+/*表格样式开始*/
+
+.yzz-paging-plugin-table a {
+	color: blue;
+}
+
+.yzz-paging-plugin-table {
+	width: 100%;
+	margin: 10px 0;
+	background-color: #fff;
+	border-collapse: collapse;
+}
+
+.yzz-paging-plugin-table th {
+	background-color: #F2F2F2;
+}
+
+.yzz-paging-plugin-table td,
+.yzz-paging-plugin-table th {
+	padding: 9px 15px;
+	border: 1px solid #e2e2e2;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+.yzz-paging-plugin-table tr:hover {
+	background-color: #FBFBFB;
+}
+
+
+/*表格样式结束*/
+

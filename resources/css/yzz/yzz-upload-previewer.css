@@ -1,0 +1,58 @@
+	/*文件上传预览样式开始*/
+	
+	#yzz-preview-img-div {
+		float: left;
+	}
+	
+	#yzz-preview-img-main-div .single-preview-img-div a {
+		text-decoration: none;
+		color: #FFFFFF;
+		position: relative;
+		left: -7px;
+		top: -90px;
+		background-color: red;
+		padding: 0px 3px;
+		border-radius: 50%;
+		font-size: 12px;
+	}
+	
+	#yzz-preview-img-main-div .single-preview-img-div a:hover {
+		color: #000000;
+	}
+	
+	#yzz-preview-img-main-div .single-preview-img-div {
+		margin-right: -5px;
+		float: left;
+	}
+	
+	#yzz-preview-img-main-div .single-preview-img-div img {
+		width: 96px;
+		height: 96px;
+	}
+	
+	#yzz-preview-img-main-div #yzz-preview-img-img {
+		cursor: pointer;
+		width: 96px;
+		height: 96px;
+	}
+	
+	#yzz-preview-img-main-div #yzz-preview-img-img:hover {
+		background-color: gainsboro;
+	}
+	
+	#yzz-upload-file-button {
+		width: 96px;
+		height: 30px;
+		font-size: 14px;
+		border: 1px solid gainsboro;
+		background-color: gainsboro;
+		outline: none;
+		cursor: pointer;
+	}
+	
+	#yzz-upload-file-button:hover {
+		color: #fff;
+		background-color: #31b0d5;
+		border-color: #31b0d5;
+	}
+	/*文件上传预览样式结束*/

@@ -7,24 +7,25 @@
 		<link rel="stylesheet" href="../../resources/css/yzz/yzz-main.css" />
 	</head>
 
-	<body>
-		<form class="layui-form layui-form-pane1" action="">
+	<body >
+		<form class="layui-form layui-form-pane1" action="" style="width: 500px;margin: auto;margin-top: 200px;">
 			<div class="layui-form-item">
-				<label class="layui-form-label">邮箱</label>
-				<div class="layui-input-block">
-					<input type="text" name="email" lay-verify="phoneOrEmail" autocomplete="off" class="layui-input">
+				<label class="layui-form-label">账号</label>
+				<div class="layui-input-inline">
+					<input type="text" name="loginAccount" lay-verify="phoneOrEmail"  placeholder="请输入手机号/邮箱" autocomplete="off" class="layui-input">
 				</div>
+				<div class="layui-form-mid layui-word-aux">请务必填写账号</div>
 			</div>
 			<div class="layui-form-item">
 				<label class="layui-form-label">密码</label>
 				<div class="layui-input-inline">
 					<input type="password" name="password" lay-verify="password" placeholder="请输入密码" autocomplete="off" class="layui-input">
 				</div>
-				<div class="layui-form-mid layui-word-aux">请务必填写用户名</div>
+				<div class="layui-form-mid layui-word-aux">请务必填写密码</div>
 			</div>
 			<div class="layui-form-item">
 				<div class="layui-input-block">
-					<button class="layui-btn" lay-submit lay-filter="*">立即提交</button>
+					<button class="layui-btn" lay-submit lay-filter="*">立即登录</button>
 					<button type="reset" class="layui-btn layui-btn-primary">重置</button>
 				</div>
 			</div>
@@ -37,11 +38,24 @@
 				//自定义验证规则
 				form.verify({
 					phoneOrEmail: function(value) {
-						if(value.length < 5) {
-							return '标题也太短了吧';
+						if(value.length > 0) {
+							var phone = /^1[34578]\d{9}$/;
+							var email = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+							
+							if (value.indexOf("@") == -1) {
+								if (!phone.test(value)) {
+									return '请输入正确的手机号/邮箱';
+								}
+							} else{
+								if (!email.test(value)) {
+									return '请输入正确的邮箱地址';
+								}
+							}
+						} else {
+							return '请输入账号';
 						}
 					},
-					password: [/(.+){6,12}$/, '密码必须6到12位']
+					password: [/(.+){6,16}$/, '密码必须6到16位']
 				});
 
 				//监听提交
